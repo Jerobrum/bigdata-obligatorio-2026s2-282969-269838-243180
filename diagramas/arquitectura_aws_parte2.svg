@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 714" width="1040" height="714" font-family="Lora, Georgia, serif" fill="#434343"><defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#434343"/></marker><marker id="fl2" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#434343"/></marker></defs><rect width="1040" height="714" fill="#ffffff"/><text x="88" y="34" text-anchor="middle" font-size="13" letter-spacing="1.2" fill="#777777">FUENTES</text>
+<text x="275" y="34" text-anchor="middle" font-size="13" letter-spacing="1.2" fill="#777777">INGESTA</text>
+<text x="515" y="34" text-anchor="middle" font-size="13" letter-spacing="1.2" fill="#777777">ALMACENAMIENTO</text>
+<text x="755" y="34" text-anchor="middle" font-size="13" letter-spacing="1.2" fill="#777777">CATÁLOGO</text>
+<text x="956" y="34" text-anchor="middle" font-size="13" letter-spacing="1.2" fill="#777777">CONSUMO</text>
+<rect x="190" y="52" width="846" height="624" rx="12" fill="none" stroke="#888888" stroke-width="1.2" stroke-dasharray="7 6"/><text x="202" y="698" font-size="13.5" font-style="italic" fill="#666666">Cuenta de AWS de la DNT: todos los servicios son nativos de AWS</text>
+<rect x="8" y="215" width="160" height="100" rx="8" fill="#f4efe4" stroke="#434343" stroke-width="1.3"/>
+<text x="88.0" y="244.25" text-anchor="middle" font-size="16.5" font-weight="700">Datos Abiertos</text>
+<text x="88.0" y="263.25" text-anchor="middle" font-size="14">del MTOP:</text>
+<text x="88.0" y="281.25" text-anchor="middle" font-size="14">5 CSV y el</text>
+<text x="88.0" y="299.25" text-anchor="middle" font-size="14">zip GTFS</text>
+<rect x="205" y="90" width="140" height="78" rx="8" fill="#e2ecf4" stroke="#434343" stroke-width="1.3"/>
+<text x="275.0" y="126.25" text-anchor="middle" font-size="16.5" font-weight="700">EventBridge</text>
+<text x="275.0" y="145.25" text-anchor="middle" font-size="14">cada 6 meses</text>
+<rect x="205" y="215" width="140" height="100" rx="8" fill="#e2ecf4" stroke="#434343" stroke-width="1.3"/>
+<text x="275.0" y="253.25" text-anchor="middle" font-size="16.5" font-weight="700">Lambda</text>
+<text x="275.0" y="272.25" text-anchor="middle" font-size="14">baja los archivos</text>
+<text x="275.0" y="290.25" text-anchor="middle" font-size="14">y los deja en S3</text>
+<polyline points="275,168 275,215" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<polyline points="168,265 205,265" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<rect x="395" y="66" width="240" height="350" rx="10" fill="#fbfbfb" stroke="#434343" stroke-width="1.3"/><text x="515.0" y="89" text-anchor="middle" font-size="16.5" font-weight="700">S3</text>
+<rect x="407" y="100" width="216" height="64" rx="8" fill="#e6f0e2" stroke="#434343" stroke-width="1.3"/>
+<text x="515.0" y="129.0" text-anchor="middle" font-size="15.5" font-weight="700">landing/</text>
+<text x="515.0" y="147.5" text-anchor="middle" font-size="13.5">copia fiel de cada archivo</text>
+<rect x="407" y="176" width="216" height="64" rx="8" fill="#e6f0e2" stroke="#434343" stroke-width="1.3"/>
+<text x="515.0" y="205.0" text-anchor="middle" font-size="15.5" font-weight="700">raw/</text>
+<text x="515.0" y="223.5" text-anchor="middle" font-size="13.5">respaldo, no se pisa</text>
+<rect x="407" y="252" width="216" height="64" rx="8" fill="#e6f0e2" stroke="#434343" stroke-width="1.3"/>
+<text x="515.0" y="281.0" text-anchor="middle" font-size="15.5" font-weight="700">refinado/</text>
+<text x="515.0" y="299.5" text-anchor="middle" font-size="13.5">parquet y modelo estrella</text>
+<rect x="407" y="328" width="216" height="64" rx="8" fill="#e6f0e2" stroke="#434343" stroke-width="1.3"/>
+<text x="515.0" y="357.0" text-anchor="middle" font-size="15.5" font-weight="700">analitica/</text>
+<text x="515.0" y="375.5" text-anchor="middle" font-size="13.5">respuestas de P1 a P5</text>
+<polyline points="345,250 370,250 370,132 407,132" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<polyline points="370,208 407,208" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<rect x="665" y="218" width="180" height="198" rx="10" fill="#fbfbfb" stroke="#434343" stroke-width="1.3"/><text x="755.0" y="241" text-anchor="middle" font-size="15.5" font-weight="700">Glue Data Catalog</text>
+<rect x="675" y="252" width="160" height="64" rx="8" fill="#ebe5f3" stroke="#434343" stroke-width="1.3"/>
+<text x="755.0" y="280.5" text-anchor="middle" font-size="14.5" font-weight="700">modelo</text>
+<text x="755.0" y="299.0" text-anchor="middle" font-size="13.5">fact_pasada y dims</text>
+<rect x="675" y="328" width="160" height="64" rx="8" fill="#ebe5f3" stroke="#434343" stroke-width="1.3"/>
+<text x="755.0" y="356.75" text-anchor="middle" font-size="14.5" font-weight="700">respuestas</text>
+<text x="755.0" y="374.75" text-anchor="middle" font-size="13">una tabla por pregunta</text>
+<polyline points="623,284 675,284" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<polyline points="623,360 675,360" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<rect x="880" y="244" width="152" height="80" rx="8" fill="#f8e4e0" stroke="#434343" stroke-width="1.3"/>
+<text x="956.0" y="272.25" text-anchor="middle" font-size="16.5" font-weight="700">Athena</text>
+<text x="956.0" y="291.25" text-anchor="middle" font-size="14">consultas SQL,</text>
+<text x="956.0" y="309.25" text-anchor="middle" font-size="14">sin servidor</text>
+<rect x="880" y="350" width="152" height="64" rx="8" fill="#f8e4e0" stroke="#434343" stroke-width="1.3"/>
+<text x="956.0" y="379.25" text-anchor="middle" font-size="16.5" font-weight="700">QuickSight</text>
+<text x="956.0" y="398.25" text-anchor="middle" font-size="14">dashboard</text>
+<rect x="880" y="446" width="152" height="44" rx="8" fill="#f4efe4" stroke="#434343" stroke-width="1.3"/>
+<text x="956.0" y="473.0" text-anchor="middle" font-size="14" font-weight="700">Usuarios de la DNT</text>
+<polyline points="845,284 880,284" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)" marker-start="url(#fl2)"/>
+<polyline points="956,324 956,350" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<polyline points="956,414 956,446" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<rect x="395" y="462" width="450" height="92" rx="8" fill="#f7ead6" stroke="#434343" stroke-width="1.3"/>
+<text x="620.0" y="496.25" text-anchor="middle" font-size="16.5" font-weight="700">Glue jobs (Spark)</text>
+<text x="620.0" y="515.25" text-anchor="middle" font-size="14">Job 1: limpia e integra las fuentes en refinado/</text>
+<text x="620.0" y="533.25" text-anchor="middle" font-size="14">Job 2: arma fact_pasada y las dimensiones</text>
+<polyline points="515,462 515,416" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)" marker-start="url(#fl2)"/><text x="563" y="444" font-size="13" font-style="italic" text-anchor="middle">lee y escribe</text>
+<polyline points="755,462 755,416" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/><text x="806" y="444" font-size="13" font-style="italic" text-anchor="middle">registra tablas</text>
+<rect x="205" y="578" width="640" height="38" rx="8" fill="#f1f1f1" stroke="#434343" stroke-width="1.3"/>
+<text x="525.0" y="602.0" text-anchor="middle" font-size="14" font-weight="700">Step Functions: orquesta la ingesta, los Glue jobs y las consultas</text>
+<rect x="205" y="626" width="827" height="38" rx="8" fill="#f1f1f1" stroke="#434343" stroke-width="1.3"/>
+<text x="618.5" y="650.0" text-anchor="middle" font-size="14" font-weight="700">IAM y Lake Formation: permisos sobre los buckets, las tablas y los dashboards</text></svg>

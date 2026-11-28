@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 910 535" width="910" height="535" font-family="Lora, Georgia, serif" fill="#434343"><defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#434343"/></marker><marker id="fl2" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#434343"/></marker></defs><rect width="910" height="535" fill="#ffffff"/><rect x="300" y="50" width="275" height="396" rx="9" fill="#ffffff" stroke="#434343" stroke-width="1.3"/>
+<path d="M300,88 v-29 a9,9 0 0 1 9,-9 h257 a9,9 0 0 1 9,9 v29 z" fill="#f7ead6" stroke="#434343" stroke-width="1.3"/>
+<text x="437.5" y="75" text-anchor="middle" font-size="17" font-weight="700">fact_vuelo</text>
+<text x="312" y="109" font-size="12" font-weight="700" fill="#777777">PK</text>
+<text x="342" y="109" font-size="14.5" font-weight="700">id_vuelo</text>
+<text x="312" y="134" font-size="12" font-weight="700" fill="#777777">FK</text>
+<text x="342" y="134" font-size="14.5" font-weight="400">icao_empresa</text>
+<text x="312" y="159" font-size="12" font-weight="700" fill="#777777">FK</text>
+<text x="342" y="159" font-size="14.5" font-weight="400">icao_origem</text>
+<text x="312" y="184" font-size="12" font-weight="700" fill="#777777">FK</text>
+<text x="342" y="184" font-size="14.5" font-weight="400">icao_destino</text>
+<text x="312" y="209" font-size="12" font-weight="700" fill="#777777">FK</text>
+<text x="342" y="209" font-size="14.5" font-weight="400">fecha</text>
+<text x="342" y="234" font-size="14.5" font-weight="400">numero_voo, tipo_linha</text>
+<text x="342" y="259" font-size="14.5" font-weight="400">partida_prevista, partida_real</text>
+<text x="342" y="284" font-size="14.5" font-weight="400">chegada_prevista, chegada_real</text>
+<text x="342" y="309" font-size="14.5" font-weight="400">hora_local, dia_semana_local</text>
+<text x="342" y="334" font-size="14.5" font-weight="400">realizado, cancelado</text>
+<text x="342" y="359" font-size="14.5" font-weight="400">atraso_partida_min</text>
+<text x="342" y="384" font-size="14.5" font-weight="400">atraso_chegada_min</text>
+<text x="342" y="409" font-size="14.5" font-weight="400">puntual, atraso_extremo</text>
+<text x="342" y="434" font-size="14.5" font-weight="400">anio_mes (partición)</text>
+<rect x="10" y="50" width="215" height="171" rx="9" fill="#ffffff" stroke="#434343" stroke-width="1.3"/>
+<path d="M10,88 v-29 a9,9 0 0 1 9,-9 h197 a9,9 0 0 1 9,9 v29 z" fill="#ebe5f3" stroke="#434343" stroke-width="1.3"/>
+<text x="117.5" y="75" text-anchor="middle" font-size="17" font-weight="700">dim_empresa</text>
+<text x="22" y="109" font-size="12" font-weight="700" fill="#777777">PK</text>
+<text x="52" y="109" font-size="14.5" font-weight="700">icao_empresa</text>
+<text x="52" y="134" font-size="14.5" font-weight="400">iata_empresa</text>
+<text x="52" y="159" font-size="14.5" font-weight="400">nombre_empresa</text>
+<text x="52" y="184" font-size="14.5" font-weight="400">nacionalidad</text>
+<text x="52" y="209" font-size="14.5" font-weight="400">servico</text>
+<rect x="10" y="270" width="215" height="196" rx="9" fill="#ffffff" stroke="#434343" stroke-width="1.3"/>
+<path d="M10,308 v-29 a9,9 0 0 1 9,-9 h197 a9,9 0 0 1 9,9 v29 z" fill="#ebe5f3" stroke="#434343" stroke-width="1.3"/>
+<text x="117.5" y="295" text-anchor="middle" font-size="17" font-weight="700">dim_fecha</text>
+<text x="22" y="329" font-size="12" font-weight="700" fill="#777777">PK</text>
+<text x="52" y="329" font-size="14.5" font-weight="700">fecha</text>
+<text x="52" y="354" font-size="14.5" font-weight="400">anio, mes, anio_mes</text>
+<text x="52" y="379" font-size="14.5" font-weight="400">trimestre</text>
+<text x="52" y="404" font-size="14.5" font-weight="400">dia_semana</text>
+<text x="52" y="429" font-size="14.5" font-weight="400">semana_anio</text>
+<text x="52" y="454" font-size="14.5" font-weight="400">es_fin_de_semana</text>
+<rect x="685" y="50" width="215" height="221" rx="9" fill="#ffffff" stroke="#434343" stroke-width="1.3"/>
+<path d="M685,88 v-29 a9,9 0 0 1 9,-9 h197 a9,9 0 0 1 9,9 v29 z" fill="#ebe5f3" stroke="#434343" stroke-width="1.3"/>
+<text x="792.5" y="75" text-anchor="middle" font-size="17" font-weight="700">dim_aeropuerto</text>
+<text x="697" y="109" font-size="12" font-weight="700" fill="#777777">PK</text>
+<text x="727" y="109" font-size="14.5" font-weight="700">icao_aeropuerto</text>
+<text x="727" y="134" font-size="14.5" font-weight="400">nombre_aeropuerto</text>
+<text x="727" y="159" font-size="14.5" font-weight="400">tamano</text>
+<text x="727" y="184" font-size="14.5" font-weight="400">ciudad, uf</text>
+<text x="697" y="209" font-size="12" font-weight="700" fill="#777777">FK</text>
+<text x="727" y="209" font-size="14.5" font-weight="400">iso_pais</text>
+<text x="727" y="234" font-size="14.5" font-weight="400">huso_utc</text>
+<text x="727" y="259" font-size="14.5" font-weight="400">latitud, longitud</text>
+<rect x="685" y="330" width="215" height="121" rx="9" fill="#ffffff" stroke="#434343" stroke-width="1.3"/>
+<path d="M685,368 v-29 a9,9 0 0 1 9,-9 h197 a9,9 0 0 1 9,9 v29 z" fill="#ebe5f3" stroke="#434343" stroke-width="1.3"/>
+<text x="792.5" y="355" text-anchor="middle" font-size="17" font-weight="700">dim_pais</text>
+<text x="697" y="389" font-size="12" font-weight="700" fill="#777777">PK</text>
+<text x="727" y="389" font-size="14.5" font-weight="700">iso_pais</text>
+<text x="727" y="414" font-size="14.5" font-weight="400">nombre_pais</text>
+<text x="727" y="439" font-size="14.5" font-weight="400">continente</text>
+<polyline points="300,129 262,129 262,104 225,104" fill="none" stroke="#434343" stroke-width="1.4"/><text x="289" y="123" font-size="13" font-weight="700" text-anchor="middle">N</text><text x="236" y="98" font-size="13" font-weight="700" text-anchor="middle">1</text>
+<polyline points="300,204 262,204 262,324 225,324" fill="none" stroke="#434343" stroke-width="1.4"/><text x="289" y="198" font-size="13" font-weight="700" text-anchor="middle">N</text><text x="236" y="318" font-size="13" font-weight="700" text-anchor="middle">1</text>
+<polyline points="575,154 650,154 650,99 685,99" fill="none" stroke="#434343" stroke-width="1.4"/><text x="586" y="148" font-size="13" font-weight="700" text-anchor="middle">N</text><text x="674" y="93" font-size="13" font-weight="700" text-anchor="middle">1</text>
+<polyline points="575,179 668,179 668,110 685,110" fill="none" stroke="#434343" stroke-width="1.4"/><text x="586" y="173" font-size="13" font-weight="700" text-anchor="middle">N</text><text x="677" y="125" font-size="13" font-weight="700" text-anchor="middle">1</text>
+<text x="620" y="148" font-size="13" font-style="italic" text-anchor="middle">origen</text>
+<text x="622" y="195" font-size="13" font-style="italic" text-anchor="middle">destino</text>
+<polyline points="792,271 792,330" fill="none" stroke="#434343" stroke-width="1.4"/><text x="804" y="289" font-size="13" font-weight="700" text-anchor="middle">N</text><text x="804" y="322" font-size="13" font-weight="700" text-anchor="middle">1</text>
+<text x="455" y="498" font-size="13.5" font-style="italic" text-anchor="middle" fill="#666666">PK: clave primaria. FK: clave que apunta a una dimensión. N y 1: muchos vuelos por cada fila de la dimensión.</text>
+<text x="455" y="518" font-size="13.5" font-style="italic" text-anchor="middle" fill="#666666">Se muestran las columnas principales de cada tabla.</text></svg>
