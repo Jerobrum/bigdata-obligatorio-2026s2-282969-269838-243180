@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 610" width="1040" height="610" font-family="Lora, Georgia, serif" fill="#434343"><defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#434343"/></marker><marker id="fl2" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#434343"/></marker></defs><rect width="1040" height="610" fill="#ffffff"/><text x="88" y="34" text-anchor="middle" font-size="13" letter-spacing="1.2" fill="#777777">FUENTES</text>
+<text x="270" y="34" text-anchor="middle" font-size="13" letter-spacing="1.2" fill="#777777">INGESTA</text>
+<text x="505" y="34" text-anchor="middle" font-size="13" letter-spacing="1.2" fill="#777777">ALMACENAMIENTO</text>
+<text x="750" y="34" text-anchor="middle" font-size="13" letter-spacing="1.2" fill="#777777">CATÁLOGO Y CONSULTA</text>
+<text x="956" y="34" text-anchor="middle" font-size="13" letter-spacing="1.2" fill="#777777">CONSUMO</text>
+<rect x="190" y="52" width="846" height="520" rx="12" fill="none" stroke="#888888" stroke-width="1.2" stroke-dasharray="7 6"/><text x="202" y="594" font-size="13.5" font-style="italic" fill="#666666">Máquina virtual de AWS Academy, con las herramientas en contenedores</text>
+<rect x="8" y="86" width="160" height="88" rx="8" fill="#f4efe4" stroke="#434343" stroke-width="1.3"/>
+<text x="88.0" y="109.25" text-anchor="middle" font-size="16.5" font-weight="700">ANAC</text>
+<text x="88.0" y="128.25" text-anchor="middle" font-size="14">15 CSV: vuelos,</text>
+<text x="88.0" y="146.25" text-anchor="middle" font-size="14">empresas y</text>
+<text x="88.0" y="164.25" text-anchor="middle" font-size="14">aeródromos</text>
+<rect x="8" y="192" width="160" height="70" rx="8" fill="#f4efe4" stroke="#434343" stroke-width="1.3"/>
+<text x="88.0" y="215.25" text-anchor="middle" font-size="16.5" font-weight="700">GitHub</text>
+<text x="88.0" y="234.25" text-anchor="middle" font-size="14">datos_respaldo/,</text>
+<text x="88.0" y="252.25" text-anchor="middle" font-size="14">sin modificar</text>
+<rect x="8" y="318" width="160" height="76" rx="8" fill="#f4efe4" stroke="#434343" stroke-width="1.3"/>
+<text x="88.0" y="344.25" text-anchor="middle" font-size="16.5" font-weight="700">OurAirports</text>
+<text x="88.0" y="363.25" text-anchor="middle" font-size="14">2 CSV: aeropuertos</text>
+<text x="88.0" y="381.25" text-anchor="middle" font-size="14">y países</text>
+<rect x="205" y="86" width="130" height="318" rx="8" fill="#e2ecf4" stroke="#434343" stroke-width="1.3"/>
+<text x="270.0" y="215.25" text-anchor="middle" font-size="16.5" font-weight="700">NiFi</text>
+<text x="270.0" y="234.25" text-anchor="middle" font-size="14">un process group</text>
+<text x="270.0" y="252.25" text-anchor="middle" font-size="14">por fuente,</text>
+<text x="270.0" y="270.25" text-anchor="middle" font-size="14">InvokeHTTP</text>
+<text x="270.0" y="288.25" text-anchor="middle" font-size="14">y PutHDFS</text>
+<polyline points="88,174 88,192" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<polyline points="168,227 205,227" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<polyline points="168,356 205,356" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<rect x="385" y="66" width="240" height="350" rx="10" fill="#fbfbfb" stroke="#434343" stroke-width="1.3"/><text x="505.0" y="89" text-anchor="middle" font-size="16.5" font-weight="700">HDFS</text>
+<rect x="397" y="100" width="216" height="64" rx="8" fill="#e6f0e2" stroke="#434343" stroke-width="1.3"/>
+<text x="505.0" y="129.0" text-anchor="middle" font-size="15.5" font-weight="700">Landing  /lnd</text>
+<text x="505.0" y="147.5" text-anchor="middle" font-size="13.5">copia fiel de la fuente</text>
+<rect x="397" y="176" width="216" height="64" rx="8" fill="#e6f0e2" stroke="#434343" stroke-width="1.3"/>
+<text x="505.0" y="205.0" text-anchor="middle" font-size="15.5" font-weight="700">Respaldo  /raw</text>
+<text x="505.0" y="223.5" text-anchor="middle" font-size="13.5">la misma copia, no se pisa</text>
+<rect x="397" y="252" width="216" height="64" rx="8" fill="#e6f0e2" stroke="#434343" stroke-width="1.3"/>
+<text x="505.0" y="281.0" text-anchor="middle" font-size="15.5" font-weight="700">Refinada  /rfn</text>
+<text x="505.0" y="299.5" text-anchor="middle" font-size="13.5">parquet y modelo estrella</text>
+<rect x="397" y="328" width="216" height="64" rx="8" fill="#e6f0e2" stroke="#434343" stroke-width="1.3"/>
+<text x="505.0" y="357.0" text-anchor="middle" font-size="15.5" font-weight="700">Analítica  /anl</text>
+<text x="505.0" y="375.5" text-anchor="middle" font-size="13.5">resultados de P4 y P5</text>
+<polyline points="335,132 397,132" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<polyline points="335,208 397,208" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<rect x="655" y="218" width="190" height="198" rx="10" fill="#fbfbfb" stroke="#434343" stroke-width="1.3"/><text x="750.0" y="241" text-anchor="middle" font-size="16.5" font-weight="700">Hive</text>
+<rect x="665" y="252" width="170" height="64" rx="8" fill="#ebe5f3" stroke="#434343" stroke-width="1.3"/>
+<text x="750.0" y="280.5" text-anchor="middle" font-size="14.5" font-weight="700">vuelos_brasil</text>
+<text x="750.0" y="299.0" text-anchor="middle" font-size="13.5">5 tablas del modelo</text>
+<rect x="665" y="328" width="170" height="64" rx="8" fill="#ebe5f3" stroke="#434343" stroke-width="1.3"/>
+<text x="750.0" y="356.0" text-anchor="middle" font-size="13.5" font-weight="700">resumen_vuelos_brasil</text>
+<text x="750.0" y="374.5" text-anchor="middle" font-size="13.5">4 tablas de resumen</text>
+<polyline points="613,284 665,284" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<polyline points="613,360 665,360" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<rect x="880" y="100" width="152" height="64" rx="8" fill="#f8e4e0" stroke="#434343" stroke-width="1.3"/>
+<text x="956.0" y="129.25" text-anchor="middle" font-size="16.5" font-weight="700">Hue</text>
+<text x="956.0" y="148.25" text-anchor="middle" font-size="14">validación</text>
+<rect x="880" y="252" width="152" height="64" rx="8" fill="#f8e4e0" stroke="#434343" stroke-width="1.3"/>
+<text x="956.0" y="281.25" text-anchor="middle" font-size="16.5" font-weight="700">Notebook 2</text>
+<text x="956.0" y="300.25" text-anchor="middle" font-size="14">P1, P2 y P3</text>
+<rect x="880" y="328" width="152" height="64" rx="8" fill="#f8e4e0" stroke="#434343" stroke-width="1.3"/>
+<text x="956.0" y="357.25" text-anchor="middle" font-size="16.5" font-weight="700">Superset</text>
+<text x="956.0" y="376.25" text-anchor="middle" font-size="14">P4 y P5</text>
+<polyline points="750,218 750,132 880,132" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<polyline points="835,284 880,284" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<polyline points="835,360 880,360" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)"/>
+<rect x="385" y="462" width="460" height="92" rx="8" fill="#f7ead6" stroke="#434343" stroke-width="1.3"/>
+<text x="615.0" y="496.25" text-anchor="middle" font-size="16.5" font-weight="700">Spark en Jupyter</text>
+<text x="615.0" y="515.25" text-anchor="middle" font-size="14">Notebook 1: refina, arma el modelo y crea las tablas de Hive</text>
+<text x="615.0" y="533.25" text-anchor="middle" font-size="14">Notebook 2: consulta el modelo y carga la zona analítica</text>
+<polyline points="505,462 505,416" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)" marker-start="url(#fl2)"/><text x="553" y="444" font-size="13" font-style="italic" text-anchor="middle">lee y escribe</text>
+<polyline points="750,462 750,416" fill="none" stroke="#434343" stroke-width="1.5" marker-end="url(#fl)" marker-start="url(#fl2)"/><text x="804" y="444" font-size="13" font-style="italic" text-anchor="middle">crea y consulta</text></svg>

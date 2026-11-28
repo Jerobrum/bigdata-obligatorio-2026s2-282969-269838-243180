@@ -39,6 +39,6 @@ Estas dos últimas son decisiones de criterio. Se propusieron en el grupo el 12/
 
 ## 4. Abiertas
 
-- **Nombres de las zonas.** `/lnd`, `/raw`, `/rfn` y `/anl` son provisorios: la letra pide las regiones dadas en clase. Confirmarlos con la ppt10 y con los docentes el 17/11.
-- **Dónde va el modelo.** Hoy está en `/rfn/vuelos_brasil/v1/modelo/`. La letra pide una "nueva ubicación": preguntar si alcanza con una carpeta dentro de refinado o si va en una zona propia.
+- **Nombres de las zonas (supuesto, sin confirmar con los docentes).** Se dejan `/lnd`, `/raw`, `/rfn` y `/anl`. Son las cuatro zonas que pide la letra y que se nombraron en clase el 20/10: landing, raw de respaldo, refined y analítica. Así quedó en el informe.
+- **Dónde va el modelo (supuesto, sin confirmar con los docentes).** Queda en `/rfn/vuelos_brasil/v1/modelo/`, una carpeta propia dentro de la zona refinada, como "nueva ubicación". En clase se dijo que las tablas de Hive del modelo apuntan a refined y las del dashboard a la zona analítica. Así quedó en el informe.
 - **Rutas que no tocan Brasil.** Se filtran en P2 y en los indicadores del dashboard. P1 no las filtra, pero no cambian su resultado: las empresas que encabezan el ranking no tienen ningún vuelo medido de ese tipo (control en el notebook 2). Se podrían sacar en el notebook 1, como regla del modelo.
